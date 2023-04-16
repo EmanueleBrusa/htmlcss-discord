@@ -108,9 +108,7 @@ h3{
     align-items: center;
 }
 .riga-grigia{
-    background-color: rgb(228, 168, 19);
     width: 80%;
-    height: 80%;
     display: flex;
 }
 /*fine secondo contenitore*/
@@ -150,6 +148,19 @@ h3{
     height: 100%;
     background-color: rgba(5, 91, 5, 0.595);
     border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.testo-finale{
+    text-align: center;
+}
+.frase-chiusura{
+    background-repeat: no-repeat;
+    background-image: url(file:///C:/Users/Emanuele/Desktop/coding/htmlcss-discord/img/stars.svg);
+    
+    width: max-content;
 }
 /*fine quarto contenitore
 /*fine main*/
