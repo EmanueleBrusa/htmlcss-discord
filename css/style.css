@@ -84,16 +84,19 @@ p{
 }
 .colonna-azzurra{
     width: 60%;
-    height: 100%;
-    background-color: cyan;
-    border: 2px dashed black;
 }
 .colonna-rosa{
     width: 40%;
-    height: 100%;
-    background-color: rgb(244, 192, 244);
-    border: 2px dashed black;
+    text-align: center;
 }
+h1{
+    padding: 40px 40px 0px 40px;
+    line-height: 60px;
+}
+h3{
+    padding: 40px 40px 0px 40px;
+}
+/*esperimenti non conclusi primo contenitore*/
 /*fine primo contenitore*/
 /*inizo secondo contenitore*/
 .contenitore-grigio{
@@ -106,7 +109,7 @@ p{
 }
 .riga-grigia{
     background-color: rgb(228, 168, 19);
-    width: 60%;
+    width: 80%;
     height: 80%;
     display: flex;
 }
@@ -124,17 +127,8 @@ p{
     height: 80%;
     display: flex;
 }
-.colonna-azzurra{
-    width: 60%;
-    height: 100%;
-    background-color: cyan;
-    border: 2px dashed black;
-}
 .colonna-rosa{
     width: 40%;
-    height: 100%;
-    background-color: rgb(244, 192, 244);
-    border: 2px dashed black;
 }
 /*fine terzo contenitore*/
 /*quarto contenitore*/
