@@ -144,11 +144,12 @@ p{
 }
 .colonna-rosa{
     width: 40%;
-    text-align: center;
+    text-align: left;
 }
 h1{
     padding: 40px 40px 0px 40px;
     line-height: 60px;
+    font-size: 50px;
 }
 h3{
     padding: 40px 40px 0px 40px;
@@ -157,7 +158,7 @@ h3{
 /*fine primo contenitore*/
 /*inizo secondo contenitore*/
 .contenitore-grigio{
-    background-color: rgb(195, 194, 194);
+    background-color: rgb(246,246,246);
     width: 100%;
     height: 580px;
     display: flex;
@@ -193,7 +194,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(195, 194, 194);
+    background-color: rgb(246,246,246);
 }
 .riga-grigia{
     width: 60%;
@@ -210,11 +211,25 @@ h3{
 .testo-finale{
     text-align: center;
 }
+.download{
+    width: 250px;
+    height: 60px;
+    border: 2px;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(142,161,225);
+    color: rgb(255, 254, 254);
+    font-weight: 600;
+    font-size: 20px;
+}
 .frase-chiusura{
     background-repeat: no-repeat;
     background-image: url(file:///C:/Users/Emanuele/Desktop/coding/htmlcss-discord/img/stars.svg);
-    
     width: max-content;
+    padding-bottom: 40px;
 }
 /*fine quarto contenitore
 /*fine main*/
