@@ -48,10 +48,19 @@ p{
     font-size: 20px;
     color: white;
 }
-.testo-login{
+.login-button{
+    width: 80px;
+    height: 40px;
+    border: 2px;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    width: 40px;
-    height: 20px;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
 }
 /*sperimentazione header fino a qui, pochi risultati, recuperare più avanti*/
 .seconda-riga{
@@ -271,7 +280,7 @@ h5{
     font-weight: lighter;
 }
 .p-footer{
-    font-size: 130%;
+    font-size: 100%;
 }
 
 /*fine contenitore nero piccolo*/
